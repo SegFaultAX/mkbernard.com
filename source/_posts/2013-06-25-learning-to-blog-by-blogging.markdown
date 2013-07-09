@@ -3,7 +3,7 @@ layout: post
 title: "Learning to blog by blogging"
 date: 2013-06-25 00:42
 comments: true
-categories: 
+categories: personal
 ---
 
 I really have been meaning to start a blog for quite some time. Every couple of
