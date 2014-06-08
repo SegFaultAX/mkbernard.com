@@ -66,7 +66,7 @@ pitfalls can be avoided.
 
 The first obvious issue with our `stats` function is it's doing everything. This
 might be perfectly reasonable and easy to understand when the number of things
-it's doing are small and well-defined, but as the requirements change, this
+it's doing is small and well-defined, but as the requirements change, this
 function will likely become increasingly brittle. As a first step, we might
 refactor the above code into the following smaller functions:
 
@@ -356,7 +356,7 @@ So how does this stack up to our `stats` function?
    an amazingly useful way to help gain an intuition about how data flows
    through the pipeline. Moreover, since the graph is just a dict, it's easy to
    inspect it, play with it at the repl, build it up iteratively or across
-   multiple files/namepsaces, etc.
+   multiple files/namespaces, etc.
 4. Performance penalties from decoupling -> everything stays decoupled and
    intermediate values are shared throughout the graph. graffiti knows when not
    to evaluate keys if it already has done previously making graphs trivially
